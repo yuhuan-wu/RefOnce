@@ -1,0 +1,38 @@
+# Project-specific data and large binaries
+dataset/R2C7K*
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+
+# Python cache/bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and env files
+.venv/
+venv/
+.conda/
+conda/
+.env
+.env.*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and experiment outputs
+logs/
+outputs/
+checkpoints/
+wandb/
+
+# Editors/OS files
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# dataset files
